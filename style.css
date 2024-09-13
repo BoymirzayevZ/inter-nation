@@ -486,3 +486,23 @@ footer {
     font-size: 18px;
     text-align: end;
 }
+#aloqa {
+    position: fixed;
+    /* position: absolute; */
+    left: 90%;
+    top: 85%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    width: 90px;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.350);
+}
+#aloqa i {
+    padding: 10px;
+    text-align: center;
+    color: #ffc107;
+    font-size: 40px;
+}
